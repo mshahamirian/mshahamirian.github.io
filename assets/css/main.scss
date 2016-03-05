@@ -1,0 +1,134 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@font-face {
+    font-family: "Samim";
+    src:url('../fonts/Samim.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Samim";
+    src:url('../fonts/Samim-Bold.woff') format('woff');
+    font-weight: bold;
+}
+@mixin font-fa {
+  font-family: Samim, Arial, Helvetica, sans-serif;
+}
+// text-align
+@mixin text-align-right {
+  text-align: right;
+  direction: rtl;
+}
+@mixin text-align-left {
+  text-align: left;
+  direction: ltr;
+}
+
+// Our variables
+
+
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #eee;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: #eee;
+$grey-color-dark:  #333;
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@media (min-width: 768px){
+  .fa{
+    .navbar-header {
+        float: right;
+    }
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+      margin-right: -15px;
+      margin-left: 15px;
+    }
+  }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+
+// My Styles
+::selection {
+    color: $grey-color-light;
+    background: $grey-color-dark;
+}
+body{
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.fa{
+    @include text-align-right;
+    @include font-fa;
+    .navbar-brand{float: right;}
+    .navbar-toggle{float: left; margin-left: 15px; margin-right: 0;}
+    .navbar-nav>li>.dropdown-menu{@include text-align-right}
+}
+.intro{
+  padding: 0;
+  background: url("../img/world-wide-web.jpg") center center;
+  color: $grey-color-dark;
+  a{
+    color: $grey-color-dark;
+    text-decoration: none;
+  }
+  .intro__title{
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  .intro__social a:hover{
+    border-bottom: 1px solid #333;
+  }
+  .intro__overlay{
+    background: rgba(238, 238, 238, 0.7);
+    height: 100vh;
+  }
+  .intro__content{
+    padding-top: 25vh;
+  }
+  .intro__image{
+    width: 8em;
+  }
+}
+.highlight{
+  @include text-align-left;
+}
