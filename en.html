@@ -1,0 +1,20 @@
+---
+layout: intro-en
+permalink: /en/
+---
+
+<div class="col-md-5 col-md-offset-2">
+  <img class="img-circle intro__image" src="{{ site.baseurl }}/assets/img/mehdi-shahamirian.jpg" alt="Mehdi Shahamirian" />
+  <h1 class="intro__title"><a href="">Mehdi Shahamirian</a></h1>
+  <h2>User Interface Designer & Developer</h2>
+  <ul class="intro__social list-inline">
+    {% for account in site.data.socials %}
+      <li>
+        <a class="intro__Social" href="https://{{ account.address }}.com/{{ account.username }}">{{ account.title }}</a>
+      </li>
+    {% endfor %}
+      <li>
+        <a class="intro__Social" href="/">فارسی</a>
+      </li>
+  </ul>
+</div>
