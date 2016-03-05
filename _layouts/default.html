@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="fa"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="fa"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="fa"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fa"> <!--<![endif]-->
+  {% include head.html %}
+  <body class="fa">
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">مرورگرتون خیلی <strong>قدیمی</strong> شده. بهتون پیشنهاد میکنم <a href="http://browsehappy.com/">از یک مرورگر به روز</a> استفاده کنید تا از وب گردی لذت ببرید.</p>
+    <![endif]-->
+    {% include header.html %}
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">{{content}}</div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
