@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+    UI Developer: Mehdi Shahamirian
+    Contact: mehdi@shahamirian.info
+    Twitter: @mshahamirian
+    From: Shiraz, Fars, Iran
+
+/* Site */
+  Languages: Persian / English
+  Standards: HTML5, CSS3, JS
+  Components: H5BP, Bootstrap, Modernizr, jQuery, SCSS, ionicons
+  Software: Atom, GIMP
