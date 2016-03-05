@@ -1,0 +1,26 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: مهدی شاه امیریان
+email: mehdi@shahamirian.info
+description: > # this means to ignore newlines until "baseurl:"
+  مهدی شاه امیریان هستم طراح و توسعه دهنده رابط کاربری با تفکر تجربه کاربری و علاقه مند به ساده سازی فرایندها و بهبود کارایی.
+
+  This is Mehdi Shahamirian, I'm a UI designer and developer with UX in mind, also interested in simplifying and making things work better.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://shahamirian.info" # the base hostname & protocol for your site
+twitter_username: mshahamirian
+github_username:  mshahamirian
+
+# Build settings
+markdown: kramdown
+# permalink: title
+#paginate: 5
+#paginate_path: /page:num
+sass:
+    style: compressed
