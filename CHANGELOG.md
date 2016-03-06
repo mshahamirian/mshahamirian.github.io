@@ -1,6 +1,6 @@
 # Release notes
 
-## v1.0.0 First Release
+## v1.0.0 First Release `(2016-03-06)`
 ### Notable changes
 - Jekyll Bloging
 - [H5BP](html5boilerplate.com)
