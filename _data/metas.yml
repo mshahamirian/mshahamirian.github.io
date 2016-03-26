@@ -1,8 +1,11 @@
 - name: author
   content: Mehdi Shahamirian
+  fa-content: مهدی شاه امیریان
 
 - name: keywords
-  content:
+  content: Mehdi Shahamirian
+  fa-content: مهدی شاه امیریان
 
 - name: copyright
   content: 2016
+  fa-content: 2016
