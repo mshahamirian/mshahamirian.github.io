@@ -92,6 +92,9 @@ $on-laptop:        800px;
     color: $grey-color-light;
     background: $grey-color-dark;
 }
+html,body{
+  height: 100%;
+}
 body{
   padding-top: 100px;
   padding-bottom: 20px;
@@ -106,6 +109,7 @@ body{
 .intro{
   padding: 0;
   background: url("../img/world-wide-web.jpg") center center;
+  background-size: 100%;
   color: $grey-color-dark;
   a{
     color: $grey-color-dark;
@@ -131,4 +135,7 @@ body{
 }
 .highlight{
   @include text-align-left;
+}
+.wrapper{
+  min-height: calc(100vh - 240px);
 }
