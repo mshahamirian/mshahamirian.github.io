@@ -1,5 +1,15 @@
 # Release notes
 
+## v1.1.2 `(2016-07-23)`
+- Bing webmaster verify ownership file added
+
+## v1.1.1  `(2016-07-19)`
+- Intro image and footer fixes
+
+## v1.1.0  `(2016-03-26)`
+- Added Disqus as commenting system
+- Redirect to 404 fixed
+
 ## v1.0.0 First Release `(2016-03-06)`
 ### Notable changes
 - Jekyll Bloging
