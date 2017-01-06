@@ -1,2 +1,2 @@
 # Mehdi Shahamirian
-My Personal Website Powered with Jekyll
+My Personal Website Powered by Jekyll

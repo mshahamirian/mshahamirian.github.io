@@ -68,15 +68,15 @@ $on-laptop:        800px;
 }
 
 @media (min-width: 768px){
-  .fa{
-    .navbar-header {
-        float: right;
-    }
-    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-      margin-right: -15px;
-      margin-left: 15px;
-    }
-  }
+  // .fa{
+  //   .navbar-header {
+  //       float: right;
+  //   }
+  //   .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  //     margin-right: -15px;
+  //     margin-left: 15px;
+  //   }
+  // }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -99,12 +99,48 @@ body{
   padding-top: 100px;
   padding-bottom: 20px;
 }
+p{
+  a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid $grey-color-dark;
+  }
+}
+
+/**
+* Code formatting
+*/
+pre,
+code{
+ font-size: 15px;
+}
+code{
+  padding: 1px 5px;
+}
+pre{
+  padding: 8px 12px;
+  overflow-x: auto;
+
+  > code{
+      border: 0;
+      padding-right: 0;
+      padding-left: 0;
+  }
+}
+
+.en{
+  @include text-align-left;
+}
 .fa{
-    @include text-align-right;
-    @include font-fa;
-    .navbar-brand{float: right;}
-    .navbar-toggle{float: left; margin-left: 15px; margin-right: 0;}
-    .navbar-nav>li>.dropdown-menu{@include text-align-right}
+  @include text-align-right;
+  @include font-fa;
+  // .navbar-brand{float: right;}
+  // .navbar-toggle{float: left; margin-left: 15px; margin-right: 0;}
+  // .navbar-nav>li>.dropdown-menu{@include text-align-right}
+  .navbar-left .dropdown-menu{
+    left: 0;
+    right: auto;
+    min-width: 128px !important;
+  }
 }
 .intro{
   padding: 0;

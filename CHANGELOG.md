@@ -1,5 +1,10 @@
 # Release notes
 
+## v1.2 `(2016-10-11)`
+- Changes on meta descriptions for site languages
+- Styling fixes
+- Bootstrap-rtl added
+
 ## v1.1.2 `(2016-07-23)`
 - Bing webmaster verify ownership file added
 

@@ -1,11 +1,12 @@
 
 # Site settings
-title: مهدی شاه امیریان
+title-en: Mehdi Shahamirian
+title-fa: مهدی شاه امیریان
 email: mehdi@shahamirian.info
-description: > # this means to ignore newlines until "baseurl:"
-  مهدی شاه امیریان هستم طراح و توسعه دهنده رابط کاربری با تفکر تجربه کاربری و علاقه مند به ساده سازی فرایندها و بهبود کارایی.
-
-  This is Mehdi Shahamirian, I'm a UI designer and developer with UX in mind, also interested in simplifying and making things work better.
+description-fa: > # this means to ignore newlines until "baseurl:"
+  یک توسعه دهنده سمت کاربر، عاشق واسط(رابط) کاربری و علاقه مند به تجربه کاربری. همچنین علاقه مند به ساده سازی فرایندها و بهبود کارایی.
+description-en: >
+  I'm a Front-End Developer, UI lover and UX enthusiast, who is interested in building, simplifying and making things work better.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://shahamirian.info" # the base hostname & protocol for your site
 twitter_username: mshahamirian
